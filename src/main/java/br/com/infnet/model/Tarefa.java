@@ -7,4 +7,6 @@ import lombok.NoArgsConstructor;
 public class Tarefa {
     private int id;
     private String titulo;
+    private double temperatura;
+    private String descricaoClima;
 }

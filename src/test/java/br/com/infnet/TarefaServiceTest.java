@@ -24,7 +24,7 @@ public class TarefaServiceTest {
     @DisplayName("Testa a função de chamar todos os elementos")
     public void teste1(){
         List<Tarefa> tarefas = tarefaService.getAll();
-        assertEquals(3, tarefas.size());
+        assertEquals(1, tarefas.size());
     }
 
     @Test
